@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+main {
+	background-color: rgb(235, 86, 183);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+section {
+	width: 50%;
+	text-align: center;
+}
+
+#welcome_cat {
+	width: 20rem;
+	border-radius: 4rem;
+}
+
+.opis {
+	font-size: 2rem;
+	font-weight: 600;
+	font-family: "Courier New", Courier, monospace;
+	padding: 2rem;
+}
+
+.button {
+	background-color: rgb(255, 0, 234);
+	border: 2px solid red;
+	border-radius: 16%;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 26px;
+}
+
+.button:hover {
+	background-color: brown;
+	color: wheat;
+}
